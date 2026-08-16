@@ -49,11 +49,6 @@ project), it will call into HiddenStats's `mod.exports.summaryPageModel` /
 `drawSummaryPage` for its own extra page, and this mode will light up
 automatically — no changes needed on this side.
 
-<p align="center">
-  <img src="docs/screenshots/kanto-reforged.svg" width="480" alt="Kanto Reforged compatibility screenshot placeholder">
-  <br><em>Placeholder until the Phase 2 PR lands — will show the page rendered through Kanto Reforged's own header/theming.</em>
-</p>
-
 ## Installation
 
 1. Drop the `hidden_stats` folder (or a zipped build of it) into your mods
