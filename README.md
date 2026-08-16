@@ -51,8 +51,9 @@ automatically — no changes needed on this side.
 
 ## Installation
 
-1. Drop the `hidden_stats` folder (or a zipped build of it) into your mods
-   directory alongside your other mods.
+1. Grab `hidden_stats.zip` from the [latest release](../../releases/latest)
+   (or zip up `manifest.json` + `main.lua` yourself) and drop it into your
+   mods directory alongside your other mods.
 2. Launch the game. Check the log for one of:
    - `HiddenStats: standalone native page installed`
    - `HiddenStats: Gen1 Modern UI page installed`

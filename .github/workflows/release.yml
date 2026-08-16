@@ -1,0 +1,27 @@
+name: Release
+
+# Push a tag like v3.0.1 (matching manifest.json's "version") to trigger this.
+on:
+  push:
+    tags:
+      - "v*.*.*"
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build mod zip
+        run: |
+          mkdir -p dist
+          zip -j dist/hidden_stats.zip manifest.json main.lua
+
+      - name: Create GitHub release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: dist/hidden_stats.zip
+          generate_release_notes: true
