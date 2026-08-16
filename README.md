@@ -91,6 +91,10 @@ winner.
 - **HP DV** isn't stored directly in Gen 1/2 — it's derived from the low bit
   of each of the other four DVs (Attack, Defense, Speed, Special).
 
+## Credits
+
+- **VidereJP** — original idea and most of the implementation.
+
 ## License
 
 [MIT](LICENSE)
