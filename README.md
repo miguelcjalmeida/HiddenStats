@@ -34,8 +34,8 @@ page — Gen1 Modern UI already fully models the native pages on its own, so
 nothing else needs to change.
 
 <p align="center">
-  <img src="docs/screenshots/modern-ui.svg" width="480" alt="Gen1 Modern UI screenshot placeholder">
-  <br><em>Replace with an actual capture of the extra page inside the Modern UI overlay.</em>
+  <img src="docs/screenshots/modern-ui.png" width="480" alt="Gen1 Modern UI screenshot">
+  <br><em>The IV/EV page rendered inside the Gen1 Modern UI Party Select overlay.</em>
 </p>
 
 ### 3. With Kanto Reforged — Phase 2, not yet released
