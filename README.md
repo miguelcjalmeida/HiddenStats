@@ -22,8 +22,8 @@ No other mod required. Wraps the native `SummaryMenu` screen directly and
 appends one extra page after whatever pages already exist.
 
 <p align="center">
-  <img src="docs/screenshots/standalone.svg" width="480" alt="Standalone screenshot placeholder">
-  <br><em>Replace with an actual capture of the native Summary screen's extra page.</em>
+  <img src="docs/screenshots/standalone.png" width="480" alt="Standalone screenshot">
+  <br><em>The IV/EV page rendered on the native Summary screen (no other mod installed).</em>
 </p>
 
 ### 2. Standalone + Gen1 Modern UI
