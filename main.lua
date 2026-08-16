@@ -77,8 +77,9 @@ local function drawStatsBody(self)
   Font.draw("IV / EV", 8, 72)
   for i, stat in ipairs(buildStats(self.mon)) do
     local y = 80 + (i - 1) * 8
-    Font.draw(stat.label, 8, y)
-    Font.draw(("%2d/%3d"):format(dvToIv(stat.dv), statExpToEv(stat.exp)), 96, y)
+    local iv = dvToIv(stat.dv)
+    local ev = statExpToEv(stat.exp)
+    Font.draw(stat.label .. "  " .. tostring(iv) .. "/" .. tostring(ev), 8, y)
   end
   love.graphics.setColor(1, 1, 1, 1)
 end
