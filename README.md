@@ -93,4 +93,4 @@ winner.
 
 ## License
 
-TBD.
+[MIT](LICENSE)
