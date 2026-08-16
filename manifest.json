@@ -1,0 +1,19 @@
+{
+  "id": "hidden_stats",
+  "name": "HiddenStats",
+  "version": "3.0.0",
+  "author": "VidereJP",
+  "api": 2,
+  "games": [
+    "gen1"
+  ],
+  "profile": "content",
+  "category": "CONTENT",
+  "priority": 75,
+  "entry": "main.lua",
+  "optional_dependencies": [
+    "gen1_modern_ui",
+    "Kanto-Reforged"
+  ],
+  "description": "Adds a Summary page showing each stat's IV (from its DV) and EV (from Stat Exp). Works standalone, with Gen1 Modern UI, and (once its compatibility hook lands) with Kanto Reforged."
+}
