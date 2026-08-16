@@ -15,5 +15,6 @@
     "gen1_modern_ui",
     "Kanto-Reforged"
   ],
-  "description": "Adds a Summary page showing each stat's IV (from its DV) and EV (from Stat Exp). Works standalone, with Gen1 Modern UI, and (once its compatibility hook lands) with Kanto Reforged."
+  "github": "miguelcjalmeida/HiddenStats",
+  "description": "Reveals each Pokemon's hidden stats on its Summary screen: IVs (converted from DVs, 0-31) and EVs (converted from Stat Exp, 0-255). Works standalone on the native Summary screen, adds a matching page to Gen1 Modern UI when installed, and (once its compatibility hook lands) integrates with Kanto Reforged."
 }
