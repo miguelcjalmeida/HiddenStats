@@ -17,8 +17,9 @@ jobs:
 
       - name: Build mod zip
         run: |
-          mkdir -p dist
-          zip -j dist/hidden_stats.zip manifest.json main.lua
+          mkdir -p dist/hidden_stats
+          cp manifest.json main.lua dist/hidden_stats/
+          cd dist && zip -r hidden_stats.zip hidden_stats
 
       - name: Create GitHub release
         uses: softprops/action-gh-release@v2
